@@ -17,10 +17,4 @@
             30
         </session-timeout>
     </session-config>
-    <serviceBehaviors>
-        <behavior name="BindingBehavior">
-            <serviceMetadata httpGetEnabled="true" />
-            <serviceDebug includeExceptionDetailInFaults="true" />
-        </behavior>
-    </serviceBehaviors>
 </web-app>
